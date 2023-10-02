@@ -1,0 +1,28 @@
+.sizes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 7px;
+}
+.sizes-container .title {
+  color: #9F9F9F;
+  font-size: 14px;
+  font-weight: 400;
+}
+.sizes-container .size-options {
+  display: flex;
+  gap: 16px;
+}
+.sizes-container button {
+  border: none;
+  font-size: 13px;
+  font-weight: 400;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #FAF4F4;
+}
+.sizes-container .selected {
+  background-color: #FBEBB5;
+  cursor: pointer;
+}/*# sourceMappingURL=sizes.css.map */
